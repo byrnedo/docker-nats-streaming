@@ -7,3 +7,5 @@ docker run ...  --entrypoint "echo \$NATS_CONFIG > /stan.conf && exec '/nats-str
 ```
 
 This image is based on alpine so you can do things like that :)
+
+Check it out on [docker hub](https://hub.docker.com/r/byrnedo/alpine-nats-streaming/).
